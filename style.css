@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+body{
+    background-color: white;
+}
+
+.logo{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+nav{
+    padding-top: 2%;
+    padding: 2%;
+    overflow:hidden;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: inline-block;
+}
+a{
+    
+    color: #0f0f0f;
+}
+
+
+nav ul li {
+    display: inline-flex;
+    list-style-type: none;
+    font-family: Orbitron;
+    font-size: 20px;
+    padding: 0.5cm;
+    
+}
+.search-icon{
+    margin-right: 15px;
+    padding-top: 7px;
+}
+
+.button-group {
+    float: right;
+    display: inline-flex;
+    
+}
+
+.nav-button{
+    position: absolute;
+    
+    font-family: Poppins;
+    color:black;
+    font-size: 17px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    justify-content: center;
+}
+
+.nav-button:hover {
+    background-color: azure;
+}
+.button-email, .button-join{
+    border-radius: 10px;
+    font-family: Poppins;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+
+}
+.button-email:hover, .button-join:hover{
+    background-color: #0f0f0f;
+    color:white;
+}
+.buttons{
+    padding: 7%;
+}
+
+.parent {
+    position: relative;
+    top: 20px;
+    left:40px;
+    display: flex;
+  }
+
+.image1{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.image2 {
+    position: absolute;
+    top: 330px;
+    left: 200px;
+    
+}
+.globe{
+    margin-top: 0px;
+    margin-left: 850px;
+    position: absolute;
+}
+
+.star{
+    position: absolute;
+    top: 30px;
+    right: 170px;
+  }
+
+h1{
+    font-family:Orbitron ;
+    font-size: 60px;
+    
+}
+p{
+    font-family: Poppins;
+    margin-left: 160px;
+    margin-right: 120px;
+}
+
+.hero-container-right{
+    text-align: center;
+    margin-top: 100px;
+    
+}

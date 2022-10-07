@@ -1,0 +1,28 @@
+{
+  "homepage": "http://sarafkalpak.github.io/live-class-project-01",
+  "name": "live-class-project-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build",
+    "start": "serve",
+
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "serve": "^11.2.0"
+  }
+}
